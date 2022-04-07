@@ -1,5 +1,5 @@
 import org.junit.jupiter.api.Test;
-import packege.TextProcessingService;
+import Service.TextProcessingService;
 import org.junit.jupiter.api.Assertions;
 
 import java.util.*;
