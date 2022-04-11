@@ -13,7 +13,6 @@ public class TextProcessingService {
     public static Set<String> readFile(String path, Charset charset) throws IOException {
             return Files.lines(Paths.get(path), charset)
                     .filter(line -> line.split(";").length == 3)
-                    .peek(System.out::println)
                     .collect(Collectors.toSet());
     }
 
